@@ -119,7 +119,7 @@ h1 {
 
 /* jeopardy */
 .scoreboard-container {
-  height: 125px;
+  max-height: 125px;
   position: fixed;
   bottom: 10px;
   background: rgba(255,255,255,0.5);
