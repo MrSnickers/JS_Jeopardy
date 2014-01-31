@@ -5,9 +5,13 @@
 $(".value").on("click", function (){
   $(this).parent().siblings().removeClass("chosen");
   $(this).parent().addClass("chosen");
-  $(".value").not(this).parent().siblings().removeClass("disabled");
+  $(".value").not(this).parent().removeClass("disabled");
   $(".value").not(this).parent().addClass("disabled");
+  if ($(this).is(":visible")){
+    $(this).fadeOut();}
 });
+
+
 $(".chosen").on("click", function(){
   
 });
