@@ -1,0 +1,33 @@
+# - name: Jen Wang
+#   src: 
+#   url: jenwang.net
+- name: Kazu Kibuishi
+  src: 'img/KazuKibuishi.jpg'
+  url: boltcity.net
+- name: Kean Soo
+  src: 'img/KeanSoo.jpg'
+  url: Keaner.net
+# - name: Kozyndan
+#   src: 
+#   url: kozyndan.com
+- name: Vera Brosgol
+  src: 'img/Verabee.jpg'
+  url: verabee.com
+# - name: Clio Chiang
+#   src: 
+#   url: cliochiang.com
+- name:Brittany Lee
+  src: 'img/BrittanyLee.jpg'
+  url:britsketch.etsy.com
+# - name:
+#   src: 
+#   url:
+# - name:
+#   src: 
+#   url:
+# - name:
+#   src: 
+#   url:
+# - name:
+#   src: 
+#   url:
