@@ -1,33 +1,26 @@
 # - name: Jen Wang
-#   src: 
+#   src: /img/JenWang.jpg
 #   url: jenwang.net
 - name: Kazu Kibuishi
-  src: 'img/KazuKibuishi.jpg'
+  src: /img/KazuKibuishi.jpg
   url: boltcity.net
 - name: Kean Soo
-  src: 'img/KeanSoo.jpg'
+  src: /img/KeanSoo.jpg
   url: Keaner.net
-# - name: Kozyndan
-#   src: 
-#   url: kozyndan.com
+- name: Kozyndan
+  src: /img/kozyndan.jpg
+  url: kozyndan.com
 - name: Vera Brosgol
-  src: 'img/Verabee.jpg'
+  src: /img/Verabee.jpg
   url: verabee.com
-# - name: Clio Chiang
-#   src: 
-#   url: cliochiang.com
-- name:Brittany Lee
-  src: 'img/BrittanyLee.jpg'
-  url:britsketch.etsy.com
-# - name:
-#   src: 
-#   url:
-# - name:
-#   src: 
-#   url:
-# - name:
-#   src: 
-#   url:
-# - name:
-#   src: 
-#   url:
+- name: Clio Chiang
+  src: /img/ClioChiang.jpg
+  url: cliochiang.com
+- name: Brittany Lee
+  src: /img/BrittanyLee.jpg
+  url: britsketch.etsy.com
+
+
+# http://www.gallerynucleus.com/detail/12603
+# http://www.gallerynucleus.com/detail/15942
+# http://www.gallerynucleus.com/detail/5379

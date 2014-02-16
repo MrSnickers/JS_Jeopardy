@@ -1,0 +1,14 @@
+%h1 Glad you could make it!
+.board
+  - @cards.each do |item|
+    .card
+      .back
+        %img.front{:src => item.src}
+      .info
+        %p
+          =item.name
+        %p
+          =item.url
+
+%script{:src=>"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
+%script{:src=>"/webcomic_memory.js"}

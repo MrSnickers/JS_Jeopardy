@@ -1,0 +1,45 @@
+body {
+  background-color: #f6e77f; }
+
+.board {
+  width: 90%;
+  margin: 0 auto;
+  position: relative; }
+
+.card {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  height: 500px;
+  width: 380px;
+  border: 5px solid grey; }
+  .card .front {
+    display: none; }
+  .card .back {
+    background-image: url("/img/card_back.png");
+    height: 500px;
+    width: 380px; }
+  .card:hover {
+    cursor: pointer; }
+  .card.chosen {
+    background-image: none;
+    background: transparent;
+    box-shadow: 0 0 5px #51cbee;
+    border: 1px solid #51cbee; }
+  .card.matched {
+    box-shadow: 0 0 5px #646464;
+    border: 1px solid #646464; }
+  .card.disabled {
+    -webkit-filter: grayscale(75%);
+    color: #666666; }
+
+.info {
+  display: none;
+  font-size: 14.5px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 27.5px;
+  color: white;
+  font-weight: 700; }
