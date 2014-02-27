@@ -2,8 +2,8 @@
 .board
   - @cards.each do |item|
     .card
-      .back
-        %img.front{:src => item.src}
+      %img.back{:src => "/img/card_back.png"}
+      %img.front{:src => item.src}
       .info
         %p
           =item.name

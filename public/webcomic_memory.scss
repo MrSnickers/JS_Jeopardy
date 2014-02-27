@@ -27,23 +27,22 @@ body{
 
 
   .chosen {
-  background-image: none;
-  background: transparent;
-  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  border: 1px solid rgba(81, 203, 238, 1);
-}
+    background-image: none;
+    background: transparent;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+  }
 
-.front{
-  display: none;
-}
+  .front{
+    display: none;
+  }
 
-.back{
-  background-image: url "/img/card_back.png";
-}
+  .back{
+  }
 
-  &:hover{
-    cursor: pointer;
-}
+    &:hover{
+      cursor: pointer;
+  }
 
   &.matched {
     box-shadow: 0 0 5px rgba(100, 100, 100, 1);
