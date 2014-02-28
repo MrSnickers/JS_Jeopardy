@@ -30,26 +30,27 @@ $(document).ready(function(){
       }, 600);
     }
 
-    if(!$cardOne){
-      $cardOne = $(this);
-      select($cardOne);
-    }else{
-      $cardTwo = $(this);
-      select($cardTwo);
-
-      if ($cardOne.find(".info").text() === $cardTwo.find(".info").text()){
-        $cardOne.removeClass("chosen").addClass("matched").find(".info").toggle();
-        $cardTwo.removeClass("chosen").addClass("matched").find(".info").toggle();
-        resetCards();
+    if($(this).not(".matched").length != 0){
+      if(!$cardOne){
+        $cardOne = $(this);
+        select($cardOne);
       }else{
-        $cardOne.removeClass("chosen");
-        slowFlip($cardOne);
-        $cardTwo.removeClass("chosen");
-        slowFlip($cardTwo);
-        resetCards();
+        $cardTwo = $(this);
+        select($cardTwo);
+
+        if ($cardOne.find(".info").text() === $cardTwo.find(".info").text()){
+          $cardOne.removeClass("chosen").addClass("matched").find(".info").toggle();
+          $cardTwo.removeClass("chosen").addClass("matched").find(".info").toggle();
+          resetCards();
+        }else{
+          $cardOne.removeClass("chosen");
+          slowFlip($cardOne);
+          $cardTwo.removeClass("chosen");
+          slowFlip($cardTwo);
+          resetCards();
+        }
       }
     }
-
   });
 
 });
