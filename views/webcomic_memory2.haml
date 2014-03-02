@@ -1,13 +1,14 @@
 %h1 Glad you could make it!
 .board
+  %button.winner You Win!
   - @cards.each do |item|
     .card
-      %img.back{:src => "/img/card_back.png"}
+      %img.back{:src => "/img/card_back_small.png"}
       %img.front{:src => item.src}
       .info
         %p
           =item.name
-        %a{:href=>"http://www.#{item.url}"}
+        %a{:href=>"http://www.#{item.url}", :target => "blank"}
           =item.url
 
 %script{:src=>"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
