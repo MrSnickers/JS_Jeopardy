@@ -14,7 +14,7 @@ body {
   position: relative;
   height: 368px;
   width: 280px;
-  border: 5px solid grey; }
+  border: 3px solid grey; }
   .card .front {
     display: none; }
   .card:hover {
@@ -23,14 +23,14 @@ body {
     background-image: none;
     background: transparent;
     box-shadow: 0 0 7px #51cbee;
-    border: 1px solid #51cbee; }
+    border: 3px solid #51cbee; }
   .card.matched {
     box-shadow: 0 0 7px #646464;
-    border: 1px solid #646464;
+    border: 3px solid #646464;
     -webkit-filter: grayscale(45%);
     color: #666666; }
 
-.winner {
+.hidden {
   display: none; }
 
 .info {

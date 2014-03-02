@@ -1,18 +1,18 @@
-- name: Jen Wang
-  src: /img/JenWang_small.jpg
-  url: jenwang.net
-- name: Kazu Kibuishi
-  src: /img/KazuKibuishi_small.jpg
-  url: boltcity.com
-- name: Kean Soo
-  src: /img/KeanSoo_small.jpg
-  url: Keaner.net
-- name: Kozyndan
-  src: /img/kozyndan_small.jpg
-  url: kozyndan.com
-- name: Vera Brosgol
-  src: /img/Verabee_small.jpg
-  url: verabee.com
+# - name: Jen Wang
+#   src: /img/JenWang_small.jpg
+#   url: jenwang.net
+# - name: Kazu Kibuishi
+#   src: /img/KazuKibuishi_small.jpg
+#   url: boltcity.com
+# - name: Kean Soo
+#   src: /img/KeanSoo_small.jpg
+#   url: Keaner.net
+# - name: Kozyndan
+#   src: /img/kozyndan_small.jpg
+#   url: kozyndan.com
+# - name: Vera Brosgol
+#   src: /img/Verabee_small.jpg
+#   url: verabee.com
 - name: Clio Chiang
   src: /img/ClioChiang_small.jpg
   url: cliochiang.com

@@ -23,7 +23,7 @@ body{
   position:relative;
   height: 368px;
   width: 280px;
-  border: 5px solid grey;
+  border: 3px solid grey;
 
   .front{
     display:none;
@@ -40,18 +40,18 @@ body{
     background-image: none;
     background: transparent;
     box-shadow: 0 0 7px rgba(81, 203, 238, 1);
-    border: 1px solid rgba(81, 203, 238, 1);
+    border: 3px solid rgba(81, 203, 238, 1);
   }
 
   &.matched {
     box-shadow: 0 0 7px rgba(100, 100, 100, 1);
-    border: 1px solid rgba(100, 100, 100, 1);
+    border: 3px solid rgba(100, 100, 100, 1);
     -webkit-filter: grayscale(45%);
     color: #666666;
   }
 }
 
-.winner{
+.hidden{
   display:none;
 }
 

@@ -6,7 +6,6 @@ $(document).ready(function(){
   $("div.card").on("click", function(event){
 
     event.stopPropagation();
-    // event.preventDefault();
 
     function resetCards(){
       $cardOne = undefined;
@@ -30,7 +29,7 @@ $(document).ready(function(){
       }, 600);
     }
 
-    if($(this).not(".matched").length != 0){
+    if($(this).not(".matched") && $(this) != $cardOne){
       if(!$cardOne){
         $cardOne = $(this);
         select($cardOne);
@@ -43,10 +42,12 @@ $(document).ready(function(){
             $cardOne.removeClass("chosen").addClass("matched").find(".info").toggle();
             $cardTwo.removeClass("chosen").addClass("matched").find(".info").toggle();
             resetCards();
+            if ($(".card").not(".matched").length == 0){
+              alert("winner!");
+              $("button").removeClass("hidden");
+            }
           }, 400);
-          if ($(".card").not(".matched").length === 0){
-            $(".winner").toggle();
-          }
+          
         }else{
           $cardOne.removeClass("chosen");
           slowFlip($cardOne);
