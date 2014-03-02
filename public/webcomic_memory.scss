@@ -32,7 +32,6 @@ body{
   .back{
   }
 
-
   &:hover{
     cursor: pointer;
 }
@@ -49,6 +48,12 @@ body{
     -webkit-filter: grayscale(45%);
     color: #666666;
   }
+}
+
+.winner{
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
 }
 
 .hidden{

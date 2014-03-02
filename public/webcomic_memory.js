@@ -43,8 +43,7 @@ $(document).ready(function(){
             $cardTwo.removeClass("chosen").addClass("matched").find(".info").toggle();
             resetCards();
             if ($(".card").not(".matched").length == 0){
-              alert("winner!");
-              $("button").removeClass("hidden");
+              $(".winner").removeClass("hidden");
             }
           }, 400);
           
