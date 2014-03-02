@@ -17,7 +17,9 @@ class Gambit < Sinatra::Application
   end
 
   get "/" do
-    haml :index
+    deck = Deck.new("data/memory.yml")
+    @cards = deck.cards.shuffle!
+    haml :webcomic_memory2
   end
 
   get "/games/new/" do
