@@ -28,13 +28,13 @@ $(document).ready(function(){
         $card.find(".front").toggle();
       }, 600);
     }
-
-    if($(this).not(".matched") && $(this) != $cardOne){
+    $this = $(this).closest(".card");
+    if($this.not(".matched")[0] && $this.not(".chosen")[0]){
       if(!$cardOne){
-        $cardOne = $(this);
+        $cardOne = $this;
         select($cardOne);
       }else{
-        $cardTwo = $(this);
+        $cardTwo = $this;
         select($cardTwo);
 
         if ($cardOne.find(".info").text() === $cardTwo.find(".info").text()){
